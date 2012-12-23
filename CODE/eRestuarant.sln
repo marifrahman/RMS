@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "eRestuarant", "eRestuarant.vbproj", "{D814B5D9-3203-462C-8F1A-7ADCC5C1E607}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UY-ReS", "..\UY-ReS\UY-ReS.vdproj", "{A2C84F14-F890-49E5-8E5F-C0109E2879EE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D814B5D9-3203-462C-8F1A-7ADCC5C1E607}.Debug.ActiveCfg = Debug|.NET
+		{D814B5D9-3203-462C-8F1A-7ADCC5C1E607}.Debug.Build.0 = Debug|.NET
+		{D814B5D9-3203-462C-8F1A-7ADCC5C1E607}.Release.ActiveCfg = Release|.NET
+		{D814B5D9-3203-462C-8F1A-7ADCC5C1E607}.Release.Build.0 = Release|.NET
+		{A2C84F14-F890-49E5-8E5F-C0109E2879EE}.Debug.ActiveCfg = Debug
+		{A2C84F14-F890-49E5-8E5F-C0109E2879EE}.Release.ActiveCfg = Release
+		{A2C84F14-F890-49E5-8E5F-C0109E2879EE}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

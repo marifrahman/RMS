@@ -1,0 +1,6 @@
+Payment options ready for test
+Stock Reorder label MANUALLY APLLIED;Need USER INTERACTION
+
+
+Do Change for Date 01/01/1900
+

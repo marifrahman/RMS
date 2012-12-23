@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <VisualBasic LastOpenVersion = "7.10.3077" >
+        <Build>
+            <Settings ReferencePath = "E:\Current.Work.On.Rms\ServiceCharge\Copy of Res.IdealM.13.08.07\eRes.m1.13.08.07\bin\;G:\Windos_Application\Stable_16_10_2006_Working\Working For 2.0\eRestuarant\bin\;G:\Windos_Application\13_09_2006\Working 2.0\Working For 2.0\eRestuarant\bin\;G:\Windos_Application\XPanderControl on arif\bin\;G:\Windos_Application\XPanderControl on arif\XPanderTestClient\bin\;G:\Windos_Application\Button\Working For 2.0.1\eRestuarant\bin\;E:\ERestuarent\Working for 1.7\eRestuarant\obj\;C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\;E:\ERestuarent\Working for 1.7\eRestuarant\bin\;G:\Windos_Application\Working 2.0\screen\screen\bin\;E:\DevRestuarantDesktop\RESTAURANTRELEASE\Working 2.0\Working For 2.0\eRestuarant\bin\;G:\Button\MAC_Button_Src_C_\MAC_Button_Src_C#\MACButtonLib\obj\Release\;G:\Windos_Application\Button\AquaButton_demo\AquaButton_demo\;G:\ScrolilngText\bin\Debug\;D:\Working 2.0\Working For 2.0\eRestuarant\bin\;D:\05_10_06\Working 2.0\Working For 2.0\eRestuarant\bin\;D:\07_10_06\Working 2.0\Working For 2.0\eRestuarant\bin\;G:\Windos_Application\Stable_12_10_2006_Working\Working 2.0\Working For 2.0\;G:\Windos_Application\Stable_12_10_2006_Working\Working 2.0\Working For 2.0\eRestuarant\bin\;E:\Excel_Chart in Vb.net\Excel_Automation_src\bin\;C:\Program Files\Pathway Data Limited\ActiveCID.Net\;G:\Stable_10_01_2007_Working_Both_PDA_Desktop\Desktop Version\Working For 2.0\eRestuarant\bin\;E:\Current.Work.On.Rms\Copy of ServiceCharge\Copy of Res.IdealM.13.08.07\eRes.m1.13.08.07\bin\;E:\Current.Work.On.Rms\ServiceCharge.Final.Release\Service.Res.IdealM.28.08.07\eRes.m1.28.08.07\bin\;D:\PizzaWithTopinWindow\Pizza.03.09.07\bin\;E:\Current.Work.On.Rms\FinalUpdate.WithCurry\RES.CURRY\Res.22.09.07.Curry\bin\;D:\UPDATE\MOTHERINDIA\RES.CURRY\CODE\bin\;D:\UPDATE\MOTHERINDIA\RES.01.01.08\CODE\bin\;C:\LondonUpdate\MOTHERINDIA\DBline Make for everyOne18.02.08\CODE\bin\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </VisualBasic>
+</VisualStudioProject>
+

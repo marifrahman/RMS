@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsReport" targetNamespace="http://tempuri.org/dsReport.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsReport.xsd" xmlns:mstns="http://tempuri.org/dsReport.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsReport" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tCust_Info">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nCust_Id" type="xs:int" nillable="true" />
+							<xs:element name="cCust_Name" type="xs:string" minOccurs="0" />
+							<xs:element name="cPhnNo" type="xs:string" minOccurs="0" />
+							<xs:element name="cPostCode" type="xs:string" minOccurs="0" />
+							<xs:element name="cAddress" type="xs:string" minOccurs="0" />
+							<xs:element name="cCompany" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="dCust_EntryDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dLstOrdrDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="cCust_BillAdd" type="xs:string" minOccurs="0" />
+							<xs:element name="cEmail" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="cURL" type="xs:string" minOccurs="0" />
+							<xs:element name="cCust_Fax" type="xs:string" minOccurs="0" />
+							<xs:element name="cCust_Mobile" type="xs:string" minOccurs="0" />
+							<xs:element name="cComment" type="xs:string" minOccurs="0" />
+							<xs:element name="cDriverDirection" type="xs:string" minOccurs="0" />
+							<xs:element name="cReview" type="xs:string" minOccurs="0" />
+							<xs:element name="cCardHolder" type="xs:string" minOccurs="0" />
+							<xs:element name="cCardNo" type="xs:string" minOccurs="0" />
+							<xs:element name="nIssueNo" type="xs:int" minOccurs="0" />
+							<xs:element name="dValidfrom" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dExpiryDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="cUserId" type="xs:string" nillable="true" />
+							<xs:element name="cTermenal" type="xs:string" nillable="true" />
+							<xs:element name="dAccessTime" type="xs:dateTime" nillable="true" />
+							<xs:element name="nGuestsNumber" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="nTable_Id" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="nCtgry_Id" type="xs:int" nillable="true" />
+							<xs:element name="cCtgry_Name" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="cCtgry_SC" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="nInstruction_Id" type="xs:int" nillable="true" />
+							<xs:element name="cInstruction" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="nItem_Id" type="xs:int" nillable="true" />
+							<xs:element name="cItem_Name" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="cItem_SC" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="cItem_Desc" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="cItem_ServeLoc" type="xs:string" nillable="true" />
+							<xs:element name="nItem_Stock" type="xs:int" nillable="true" />
+							<xs:element name="mDinePrice" type="xs:decimal" nillable="true" />
+							<xs:element name="mTakeawayPrice" type="xs:decimal" nillable="true" />
+							<xs:element name="nOrder_Id" type="xs:int" nillable="true" />
+							<xs:element name="dOrder_date" type="xs:dateTime" nillable="true" />
+							<xs:element name="mTotalPrice" type="xs:decimal" minOccurs="0" nillable="true" />
+							<xs:element name="mDiscount" type="xs:decimal" minOccurs="0" nillable="true" />
+							<xs:element name="mService_Charge" type="xs:decimal" minOccurs="0" nillable="true" />
+							<xs:element name="mNetpay" type="xs:decimal" minOccurs="0" nillable="true" />
+							<xs:element name="nOrderStatus" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="nItem_Qty" type="xs:int" nillable="true" />
+							<xs:element name="nTable_Size" type="xs:int" nillable="true" />
+							<xs:element name="nTable_Capacity" type="xs:int" nillable="true" />
+							<xs:element name="nStatus" type="xs:int" nillable="true" />
+							<xs:element name="nType_Id" type="xs:int" nillable="true" />
+							<xs:element name="cType_Name" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="cType_SC" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="mUnitPrice" type="xs:decimal" minOccurs="0" />
+							<xs:element name="nCardId" type="xs:int" minOccurs="0" />
+							<xs:element name="cCardType" type="xs:string" minOccurs="0" />
+							<xs:element name="cRestName" type="xs:string" minOccurs="0" />
+							<xs:element name="cRestType" type="xs:string" minOccurs="0" />
+							<xs:element name="cResAddress1" type="xs:string" minOccurs="0" />
+							<xs:element name="cResAddress2" type="xs:string" minOccurs="0" />
+							<xs:element name="cResAddress3" type="xs:string" minOccurs="0" />
+							<xs:element name="cResPhoneNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="cResFaxNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="cResEmaiAddress" type="xs:string" minOccurs="0" />
+							<xs:element name="cResWebAddress" type="xs:string" minOccurs="0" />
+							<xs:element name="cGreetinMsg" type="xs:string" minOccurs="0" />
+							<xs:element name="nVat" type="xs:decimal" minOccurs="0" />
+							<xs:element name="cVatNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="mCashPayAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="mCardPayAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="mChequeAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="cChequeNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="cBankName" type="xs:string" minOccurs="0" />
+							<xs:element name="mTotalFoodSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="mTotalDrinkSales" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
